@@ -6,7 +6,8 @@ import { NavController,AlertController } from 'ionic-angular';
   templateUrl: 'about.html'
 })
 export class AboutPage {
-
+password: String;
+cpassword: String;
   constructor(public navCtrl: NavController,public alertCrtl: AlertController) {
 
   }
@@ -21,5 +22,7 @@ export class AboutPage {
         alert.present();
     }
     
+    
   }
-  }
+  
+}
